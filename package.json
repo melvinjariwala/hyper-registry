@@ -1,0 +1,39 @@
+{
+  "name": "hyper-registry",
+  "version": "1.0.0",
+  "description": "A peer-to-peer username registry powered by Hyperbee, Hyperswarm, and RPC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "brittle test/*.test.js",
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "clean": "rm -rf server-corestore client-corestore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvinjariwala/hyper-registry.git"
+  },
+  "keywords": [],
+  "author": "Melvin Jariwala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melvinjariwala/hyper-registry/issues"
+  },
+  "homepage": "https://github.com/melvinjariwala/hyper-registry#readme",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.4.1",
+    "b4a": "^1.8.0",
+    "compact-encoding": "^2.19.0",
+    "corestore": "^7.8.0",
+    "hyperbee": "^2.27.3",
+    "hypercore": "^11.26.0",
+    "hyperdht": "^6.29.0",
+    "hyperswarm": "^4.17.0",
+    "protomux-rpc": "^1.9.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.19.1",
+    "prettier": "^3.8.1",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}
