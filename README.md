@@ -65,4 +65,4 @@ To manually clear local development databases, run `npm run clean`.
 
 ---
 
-Note on AI Usage: I used AI as an interactive tutor to deep-dive into the Holepunch stack (Hypercore, Hyperbee, Hyperswarm, compact-encoding). I used it to bounce architectural ideas and clarify P2P race conditions, but I authored the logic, structured the application, and orchestrated the repository myself.
+Note on tooling: I used AI as an interactive tutor while learning the Holepunch stack — to clarify internals, challenge my architectural assumptions, and understand P2P race conditions. The architecture, implementation, and code are my own.
